@@ -29,11 +29,17 @@ Easy containerization using Docker
 Portable and lightweight for deployment on any system
 
 🏗 Project Structure
+
 File	Description
+
 server.js	Node.js server handling routes and authentication
+
 login.ejs	Login page frontend template
+
 style.css	Stylesheet for login page
+
 Dockerfile	Docker configuration for building and running the app
+
 package.json	Node.js dependencies and scripts
 requirements.txt	Optional dependencies for development
 
