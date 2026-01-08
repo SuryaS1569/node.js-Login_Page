@@ -1,7 +1,4 @@
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9777b1a6-cfdc-4deb-a5af-545740d8358d" />
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/26e3a367-97b3-4c67-b046-9edbdb4caa4b" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9777b1a6-cfdc-4deb-a5af-545740d8358d" /> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/26e3a367-97b3-4c67-b046-9edbdb4caa4b" />
 
 
 Dockerized Node.js Login Application
