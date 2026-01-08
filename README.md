@@ -1,73 +1,43 @@
-Node.js Login Page (Dockerized)
+Dockerized Node.js Login Application
 
-A simple Node.js login application with EJS templating, styled with CSS, and fully dockerized for easy deployment.
+📌 Project Overview
 
-Features
+This project is a Dockerized Node.js-based login application built using Express.js and EJS for templating.
+It provides a simple login interface and handles user authentication on the backend.
+The application can be easily deployed in a Docker container, making it portable and easy to run across different environments.
 
-User login functionality
+🛠 Technologies Used
 
-Responsive and minimal UI using CSS
+Node.js – Backend runtime environment
 
-Server-side rendering using EJS
+Express.js – Web framework for Node.js
 
-Dockerized for easy deployment on any system
+EJS – Templating engine for dynamic HTML rendering
 
-Project Structure
-node.js-Login_Page/
-│
-├── Dockerfile           # Docker configuration to build and run the app
-├── server.js            # Main Node.js server file
-├── login.ejs            # Login page template
-├── style.css            # CSS styles for the login page
-├── package.json         # Node.js dependencies and scripts
-└── requirements.txt     # Additional dependencies (if any)
+CSS – Styling for frontend pages
 
-Prerequisites
+Docker – Containerization for easy deployment
 
-Node.js
+🔑 Features
 
-Docker
+User login interface with validation
 
-Installation
+Modular Node.js server setup
 
-Clone the repository:
+Easy containerization using Docker
 
-git clone https://github.com/SuryaS1569/node.js-Login_Page.git
-cd node.js-Login_Page
+Portable and lightweight for deployment on any system
 
+🏗 Project Structure
+File	Description
+server.js	Node.js server handling routes and authentication
+login.ejs	Login page frontend template
+style.css	Stylesheet for login page
+Dockerfile	Docker configuration for building and running the app
+package.json	Node.js dependencies and scripts
+requirements.txt	Optional dependencies for development
 
-Install dependencies:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9777b1a6-cfdc-4deb-a5af-545740d8358d" />
 
-npm install
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/26e3a367-97b3-4c67-b046-9edbdb4caa4b" />
 
-Running Locally
-node server.js
-
-
-Visit http://localhost:3000 in your browser to see the login page.
-
-Running with Docker
-
-Build the Docker image:
-
-docker build -t node-login-app .
-
-
-Run the Docker container:
-
-docker run -p 3000:3000 node-login-app
-
-
-Open your browser and navigate to http://localhost:3000.
-
-Technologies Used
-
-Node.js – Backend server
-
-Express.js – Web framework
-
-EJS – Template engine
-
-CSS – Styling
-
-Docker – Containerization
